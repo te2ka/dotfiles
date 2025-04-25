@@ -37,4 +37,3 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME"/starship/cache
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$GOENV_ROOT/bin:$PATH"
 export PATH="$PATH:$HOME/bin"
-

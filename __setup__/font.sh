@@ -33,4 +33,3 @@ open CONSOLA*.TTF
 popd
 
 rm -rf "${WORKING_DIR}"
-

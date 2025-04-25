@@ -20,4 +20,3 @@ for setup_script in $(find "${CONFIG_DIR}/__setup__" -type f -name '*.sh')
 do
   $setup_script
 done
-
