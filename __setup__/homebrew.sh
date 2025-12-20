@@ -2,34 +2,14 @@
 
 set -eu
 
+cd $(dirname "$0")
+
 echo 'setup homebrew'
 
-readonly LIBS=`cat <<EOF
-cabextract
-charmbracelet/tap/freeze
-eza
-fzf
-neovim
-rbenv
-sheldon
-starship
-trash
-tree
-xdg-ninja
-zsh-completions
-EOF`
+if ! command -v brew >/dev/null
+then
+  echo 'homebrew not found, try install homebrew'
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
-$BREW_COMMAND install $LIBS
-
-readonly CASK_LIBS=`cat <<EOF
-alfred
-discord
-google-chrome
-microsoft-teams
-typora
-visual-studio-code
-xcodes
-zoom
-EOF`
-
-$BREW_COMMAND install --cask $CASK_LIBS
+/opt/homebrew/bin/brew bundle --file=./.Brewfile
