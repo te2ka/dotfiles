@@ -46,7 +46,6 @@ alias ll='ls -l --git'
 
 eval "$(starship init zsh)"
 eval "$(sheldon source)"
-eval "$(rbenv init -)"
 eval "$(mise activate zsh)"
 
 if type brew &>/dev/null

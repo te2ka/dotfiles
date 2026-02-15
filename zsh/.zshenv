@@ -12,7 +12,6 @@ export SAVEHIST=1000000
 
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
-export RBENV_ROOT="$XDG_DATA_HOME"/rbenv
 export GEM_HOME="${XDG_DATA_HOME}"/gem
 export GEM_SPEC_CACHE="${XDG_CACHE_HOME}"/gem
 export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle/config
