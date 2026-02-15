@@ -24,16 +24,17 @@ export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
 
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 
-export VAGRANT_HOME="$XDG_DATA_HOME"/vagrant
-
 export CP_HOME_DIR="$XDG_DATA_HOME"/cocoapods
 
-export GOENV_ROOT="$HOME/.goenv"
 export GOPATH="$XDG_DATA_HOME"/go
 
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME"/starship/starship.toml
 export STARSHIP_CACHE="$XDG_CACHE_HOME"/starship/cache
 
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$GOENV_ROOT/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"
 export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:/opt/homebrew/bin:$HOME/brew/bin"
+export PATH="$PATH:$XDG_DATA_HOME/npm/bin"
+
+export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/config"

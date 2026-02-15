@@ -1,5 +1,4 @@
 tap "charmbracelet/tap"
-tap "homebrew/services"
 brew "cabextract"
 brew "colima", restart_service: :changed
 brew "docker"
@@ -7,6 +6,7 @@ brew "docker-compose"
 brew "eza"
 brew "fzf"
 brew "go"
+brew "mise"
 brew "neovim"
 brew "rbenv"
 brew "sheldon"

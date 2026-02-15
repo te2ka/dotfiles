@@ -41,12 +41,13 @@ setopt nonomatch
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
-alias ls="eza"
+alias ls="eza -s type"
 alias ll='ls -l --git'
 
 eval "$(starship init zsh)"
 eval "$(sheldon source)"
 eval "$(rbenv init -)"
+eval "$(mise activate zsh)"
 
 if type brew &>/dev/null
 then
