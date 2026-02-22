@@ -37,3 +37,6 @@ export PATH="$PATH:/opt/homebrew/bin:$HOME/brew/bin"
 export PATH="$PATH:$XDG_DATA_HOME/npm/bin"
 
 export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/config"
+
+export GH_CONFIG_DIR="${XDG_CONFIG_HOME}/gh"
+
