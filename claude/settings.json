@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Read",
+      "Write"
+    ],
+    "deny": [
+      "Bash(rm -rf *)"
+    ]
+  },
+  "cleanupPeriodDays": 30
+}
+
