@@ -20,6 +20,9 @@ export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
 
 export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
 export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
+export AWS_CLI_HISTORY_FILE="$XDG_DATA_HOME"/aws/cli/history/history.db
+export AWS_DATA_PATH="$XDG_DATA_HOME"/aws/models
+export AWS_LOGIN_CACHE_DIRECTORY="$XDG_CACHE_HOME"/aws
 
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 
