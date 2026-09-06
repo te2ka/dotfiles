@@ -40,3 +40,5 @@ export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/config"
 
 export GH_CONFIG_DIR="${XDG_CONFIG_HOME}/gh"
 
+export CLAUDE_CONFIG_DIR="${XDG_CONFIG_HOME}/claude"
+
